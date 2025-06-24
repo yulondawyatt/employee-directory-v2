@@ -26,9 +26,9 @@ employeesRouter.route("/:id").get((req, res) => {
 });
 
 
-employeesRouter.route('/employees').post((req, res) => {
+employeesRouter.route('/').post((req, res) => {
   const { name } = req.body;
-  
+
 });
 
   export default employeesRouter;
